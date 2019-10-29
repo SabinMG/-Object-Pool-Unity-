@@ -21,7 +21,8 @@ Usage
 //Spawn pooled objects
 void CreatEnemy(string enemyName, Vector3 position, Quaternion rotation)
 {
-          GameObject enemy = poolManager.Instance.GetObjectFromPool(enemyName, position, rotation);	
+          GameObject enemy = poolManager.Instance.GetObjectFromPool(enemyName, position, rotation);
+          enemy.SetActive(true); // activate object
 }
 
 void RecycleEnemy()
