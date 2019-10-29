@@ -5,7 +5,7 @@ An object pool implementation for Unity.
 
 Overview
 ----
-Object pooling helps to avoid memmory foot print issues while creating new objects dynamically. Here you will find the implementation of the
+Object pooling helps to avoid memmory foot print issues while creating new objects dynamically. Here you will find the implementation of 
 object pool inside the unity.
 
 Usage
