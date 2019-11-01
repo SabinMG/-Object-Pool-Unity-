@@ -14,7 +14,7 @@ Usage
 2. Add the component PoolInitializer.cs to it.
 3. Rezise the Objects To Pooled array.
 4. Assigne the prefab to the array.
-5. Also assigne the pool max size as well.
+5. Also set the pool max size as well.
 
 
 ```csharp
@@ -32,6 +32,4 @@ void RecycleEnemy()
 
 ```
 
-Licence
----
-MIT
+
